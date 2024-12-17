@@ -1,0 +1,312 @@
+----- Question 1 -------- 
+Equilibrium point (using fzero):
+V_eq = -60.8554
+w_eq = 0.014915
+Equilibrium point (using vpasolve): 
+V = -60.8554
+w = 0.0149
+
+ ----- Question 2 -------- 
+Jacobian @ [-60.8554, 0.0149]: 
+   -0.1004   -9.2578
+    0.0000   -0.0320
+
+Eigenvalues: 
+   -0.0959
+   -0.0366
+
+The type of equilibrium is: Stable Equilibrium
+
+ ------ Question 6 ------------------- 
+Threshold potential under Depolarising current = -14.89 mV 
+
+ ---------- QUESTION 7 -------------------------- 
+For Iext = 0 
+Equilibrium points: 
+V = -60.8554 mV 
+w = 0.0149 
+
+For Iext = 86.0 μA/cm2 
+Equilibrium points: 
+V = -27.9524 mV 
+w = 0.1195 
+Jacobian @ [-27.9524, 0.1195]: 
+    0.0090  -22.4190
+    0.0002   -0.0225
+
+Eigenvalues: 
+  -0.0068 + 0.0574i
+  -0.0068 - 0.0574i
+
+The type of equilibrium is: Stable Spiral 
+
+ --------------- QUESTION 8 -------------------- 
+Equilibrium point: 
+V = -27.9524 mV 
+w = 0.1195 
+
+ ------------------------- QUESTION 9 ------------------------------ 
+Equilibrium point for Iext = 80 μA/cm2 @ (-29.97,0.11) 
+Jacobian @ [-29.9662, 0.1061]: 
+   -0.0127  -21.6135
+    0.0001   -0.0229
+
+Eigenvalues: 
+  -0.0178 + 0.0557i
+  -0.0178 - 0.0557i
+
+The type of equilibrium is: Stable Spiral 
+
+ ------------------------------- 
+Equilibrium point for Iext = 86 μA/cm2 @ (-27.95,0.12) 
+Jacobian @ [-27.9524, 0.1195]: 
+    0.0090  -22.4190
+    0.0002   -0.0225
+
+Eigenvalues: 
+  -0.0068 + 0.0574i
+  -0.0068 - 0.0574i
+
+The type of equilibrium is: Stable Spiral 
+
+ ------------------------------- 
+Equilibrium point for Iext = 90 μA/cm2 @ (-26.60,0.13) 
+Jacobian @ [-26.5969, 0.1294]: 
+    0.0258  -22.9613
+    0.0002   -0.0223
+
+Eigenvalues: 
+   0.0018 + 0.0572i
+   0.0018 - 0.0572i
+
+The type of equilibrium is: Unstable Spiral 
+
+ ------------------------------- 
+
+ --------------------- QUESTION 10 ------------------ 
+Jacobian @ [-41.8452, 0.0020]: 
+   -0.0645  -16.8619
+    0.0000   -0.1638
+
+Eigenvalues: 
+   -0.0715
+   -0.1568
+
+Equilibrium for point A is: Stable Equilibrium
+
+ ------------------------------------------- 
+Jacobian @ [-19.5632, 0.0259]: 
+    0.1824  -25.7747
+    0.0003   -0.0961
+
+Eigenvalues: 
+    0.1536
+   -0.0673
+
+Equilibrium for point B is: Saddle Point
+
+ ------------------------------------------- 
+Jacobian @ [3.8715, 0.2821]: 
+    0.2563  -35.1486
+    0.0016   -0.0685
+
+Eigenvalues: 
+   0.0939 + 0.1723i
+   0.0939 - 0.1723i
+
+Equilibrium for point C is: Unstable Spiral
+
+ ------------------------------------------- 
+
+ ------------- QUESTION 11 ------------------------ 
+For Iext = 30.000000, Three distinct equilibrium points 
+For Iext = 35.000000, Three distinct equilibrium points 
+For Iext = 39.000000, Three distinct equilibrium points 
+For Iext = 39.100000, Three distinct equilibrium points 
+For Iext = 39.200000, Three distinct equilibrium points 
+For Iext = 39.300000, Three distinct equilibrium points 
+For Iext = 39.400000, Three distinct equilibrium points 
+For Iext = 39.500000, Three distinct equilibrium points 
+For Iext = 39.500000, Three distinct equilibrium points 
+For Iext = 39.600000, Three distinct equilibrium points 
+For Iext = 39.700000, Three distinct equilibrium points 
+For Iext = 39.800000, Three distinct equilibrium points 
+For Iext = 39.900000, Three distinct equilibrium points 
+For Iext = 40.000000, One distinct equilibrium point 
+For Iext = 42.500000, One distinct equilibrium point 
+For Iext = 45.000000, One distinct equilibrium point 
+For Iext = 47.500000, One distinct equilibrium point 
+For Iext = 50.000000, One distinct equilibrium point 
+
+ ------------------------- QUESTION 13 ------------------------------ 
+EL = -49.401 mV 
+Equilibrium points for Iext = 0 
+V = -60.00 
+n = 0.32 
+m = 0.05 
+h = 0.60 
+----------------- QUESTION 14 ----------------------------
+ Threshold Current = 6.67 μA/cm^2 
+
+ --------------- QUESTION 15 ------------------------ 
+For Iext = 8.00 
+Equilibrium points: 
+V = -55.36 
+n = 0.39 
+m = 0.09 
+h = 0.43 
+
+ Eigenvalues: 
+ -4.6901
+  -0.0345 +0.5668i
+  -0.0345 -0.5668i
+ -0.1350
+Type of equilibrium: Stable Equilibrium
+ -------------------------------------------------------- 
+For Iext = 8.50 
+Equilibrium points: 
+V = -55.15 
+n = 0.39 
+m = 0.09 
+h = 0.42 
+
+ Eigenvalues: 
+ -4.7099
+  -0.0246 +0.5727i
+  -0.0246 -0.5727i
+ -0.1360
+Type of equilibrium: Stable Equilibrium
+ -------------------------------------------------------- 
+For Iext = 9.00 
+Equilibrium points: 
+V = -54.95 
+n = 0.40 
+m = 0.09 
+h = 0.42 
+
+ Eigenvalues: 
+ -4.7306
+  -0.0149 +0.5783i
+  -0.0149 -0.5783i
+ -0.1370
+Type of equilibrium: Stable Equilibrium
+ -------------------------------------------------------- 
+For Iext = 9.50 
+Equilibrium points: 
+V = -54.76 
+n = 0.40 
+m = 0.10 
+h = 0.41 
+
+ Eigenvalues: 
+ -4.7520
+  -0.0053 +0.5835i
+  -0.0053 -0.5835i
+ -0.1379
+Type of equilibrium: Stable Equilibrium
+ -------------------------------------------------------- 
+For Iext = 10.00 
+Equilibrium points: 
+V = -54.57 
+n = 0.40 
+m = 0.10 
+h = 0.40 
+
+ Eigenvalues: 
+ -4.7741
+  0.0041 +0.5883i
+  0.0041 -0.5883i
+ -0.1389
+Type of equilibrium: Saddle point.
+ -------------------------------------------------------- 
+For Iext = 10.50 
+Equilibrium points: 
+V = -54.39 
+n = 0.41 
+m = 0.10 
+h = 0.40 
+
+ Eigenvalues: 
+ -4.7968
+  0.0133 +0.5929i
+  0.0133 -0.5929i
+ -0.1399
+Type of equilibrium: Saddle point.
+ -------------------------------------------------------- 
+For Iext = 11.00 
+Equilibrium points: 
+V = -54.21 
+n = 0.41 
+m = 0.10 
+h = 0.39 
+
+ Eigenvalues: 
+ -4.8200
+  0.0224 +0.5971i
+  0.0224 -0.5971i
+ -0.1408
+Type of equilibrium: Saddle point.
+ -------------------------------------------------------- 
+For Iext = 11.50 
+Equilibrium points: 
+V = -54.04 
+n = 0.41 
+m = 0.10 
+h = 0.39 
+
+ Eigenvalues: 
+ -4.8436
+  0.0312 +0.6011i
+  0.0312 -0.6011i
+ -0.1418
+Type of equilibrium: Saddle point.
+ -------------------------------------------------------- 
+For Iext = 12.00 
+Equilibrium points: 
+V = -53.87 
+n = 0.41 
+m = 0.11 
+h = 0.38 
+
+ Eigenvalues: 
+ -4.8676
+  0.0399 +0.6048i
+  0.0399 -0.6048i
+ -0.1428
+Type of equilibrium: Saddle point.
+ -------------------------------------------------------- 
+Warning: Function behaves unexpectedly on array inputs. To
+improve performance, properly vectorize your function to
+return an output with the same size and shape as the input
+arguments. 
+Warning: Function behaves unexpectedly on array inputs. To
+improve performance, properly vectorize your function to
+return an output with the same size and shape as the input
+arguments. 
+--------------------- QUESTION 18 -------------- 
+Equilibrium Point for n and h @ Resting potential:
+V = -54.394575 
+m = 0.100047 
+Jacobian @ [-54.3946, 0.1000]: 
+   -0.7383  234.9860
+    0.0354   -3.2553
+
+Eigenvalues: 
+    1.1501
+   -5.1437
+
+Type of equilibrium: Saddle Point 
+
+
+Equilibrium Point for n and h @ final values of anodal stimulus :
+V = 54.334898 
+m = 0.999220 
+Jacobian @ [54.3349, 0.9992]: 
+  -83.7260  166.2055
+    0.0005   -8.9416
+
+Eigenvalues: 
+  -83.7271
+   -8.9406
+
+Type of equilibrium: Stable Equilibrium 
